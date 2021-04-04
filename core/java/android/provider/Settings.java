@@ -5389,12 +5389,6 @@ public final class Settings {
         /**
 
         /**
-         * Whether to include options in power menu for rebooting into recovery or bootloader
-         * @hide
-         */
-        public static final String ADVANCED_REBOOT = "advanced_reboot";
-
-        /**
          * IMPORTANT: If you add a new public settings you also have to add it to
          * PUBLIC_SETTINGS below. If the new setting is hidden you have to add
          * it to PRIVATE_SETTINGS below. Also add a validator that can validate
@@ -10533,6 +10527,18 @@ public final class Settings {
          */
         @Readable
         public static final String SCREEN_OFF_UDFPS_ENABLED = "screen_off_udfps_enabled";
+
+        /**
+         * Whether to include options in power menu for rebooting into recovery or bootloader
+         * @hide
+         */
+        public static final String ADVANCED_REBOOT = "advanced_reboot";
+
+        /**
+         * String to contain power menu actions
+         * @hide
+         */
+        public static final String POWER_MENU_ACTIONS = "power_menu_actions";
 
         /**
          * These entries are considered common between the personal and the managed profile,
